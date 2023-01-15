@@ -1,2 +1,1 @@
-# cla-netacad
-CLA - Programming Essentials in C
+# CLA - Programming Essentials in C
