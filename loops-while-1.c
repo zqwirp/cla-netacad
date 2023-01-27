@@ -11,18 +11,22 @@ int main() {
   short a, b, sum;
 
   do {
+    printf("\n");
     printf("a = ", a);
     scanf("%d", &a);
 
-    printf("\n");
     printf("b = ", b);
     scanf("%d", &b);
+
+    if (a == 0 || b == 0)
+      break;
 
     sum = a + b;
     printf("\n");
     printf("sum = %d\n", sum);
   } while (a != 0 && b != 0);
 
+  printf("\n");
   printf("\nprogram stopped\n");
   printf("last sum = %d\n", sum);
 
